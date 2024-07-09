@@ -1,0 +1,24 @@
+.task {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task.overdue {
+    background-color: #f8d7da;
+  }
+  
+  .task.nearing-deadline {
+    background-color: #fff3cd;
+  }
+  
+  .task h5 {
+    margin-top: 0;
+  }
+  
+  .delete-task {
+    margin-top: 10px;
+  }
+  
