@@ -1,24 +1,28 @@
+/* Styling for individual task elements */
 .task {
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: #fff;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .task.overdue {
-    background-color: #f8d7da;
-  }
-  
-  .task.nearing-deadline {
-    background-color: #fff3cd;
-  }
-  
-  .task h5 {
-    margin-top: 0;
-  }
-  
-  .delete-task {
-    margin-top: 10px;
-  }
-  
+  padding: 10px; /* Add padding inside the task element for spacing */
+  margin-bottom: 10px; /* Add space between tasks */
+  background-color: #fff; /* Set background color to white */
+  border-radius: 4px; /* Round the corners of the task element */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for a raised effect */
+}
+
+/* Styling for tasks that are overdue */
+.task.overdue {
+  background-color: #f8d7da; /* Set background color to light red to indicate overdue status */
+}
+
+/* Styling for tasks nearing their deadline */
+.task.nearing-deadline {
+  background-color: #fff3cd; /* Set background color to light yellow to indicate nearing deadline status */
+}
+
+/* Ensure task titles have no top margin */
+.task h5 {
+  margin-top: 0; /* Remove the top margin from the task title */
+}
+
+/* Styling for the delete button inside a task */
+.delete-task {
+  margin-top: 10px; /* Add margin above the delete button for spacing */
+}
